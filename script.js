@@ -3,7 +3,7 @@ const addBtn = document.getElementById("add-btn");
 const todoList = document.getElementById("todo-list");
 const clearBtn = document.getElementById("clear-btn")
 
-addBtn.addEventListener("click", () => {
+addBtn.addEventListener("click", () => {  
   if (todoInput.value === "") {
     alert("Please enter a todo");
   } else {
